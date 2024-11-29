@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.layout-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.header-section {
+  height: 15vh;
+}
+
+.section-2{
+  background: lightcyan;
+  padding: 1rem;
+  font-size: 1.2rem;
+  width: 17.5%;
+  text-align: center;
+}
+
+.section-2 a:hover{
+  color: green;
+}
+
+.footer{
+  height: 15vh;
+  background: darkolivegreen;
+}
+
+.spacer{
+  width: 10%;
+}
+
+.middle-section1{
+  height: 50vh;
+}
+
+.middle-section2{
+  height: 20vh;
+}
+
+.section-3{
+  background: aquamarine;
+  width: 17.5%;
+}
+
+.section-4{
+  background: darkslateblue;
+  padding: 1rem;
+  text-align: justify;
+  width: 17.5%;
+  font-size: 1.5rem;
+}
+
+.section-5{
+  background: darkseagreen;
+  padding: 1rem;
+  text-align: justify;
+  width: 17.5%;
+  font-size: 1.5rem;
+}
+
+.section-2-2{
+  background: greenyellow;
+}
+
+.header{
+  background: cornflowerblue;
+}
+
+.text{
+  width: 100%;
+  text-align: center;
+  color: #e2e2e2;
+}
+
+.logo{
+  width: 15%;
+}
+
+.logo-holder{
+  background: aliceblue;
+  padding: 6px;
+  text-align: right;
+  height: 80%;
+  margin: 6px;
+}
+
+.img-holder{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer{
+  color: #cecece;
+  padding: 2rem;
+}

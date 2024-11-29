@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  border: 0;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+/*a{
+  color: rgb(44, 44, 44);
+}
+*/
+
+.page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  background: darkolivegreen;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+}
+
+.footer h1 {
+  cursor: pointer;
+  color: #cecece;
+}
+
+.header{
+  display: flex;
+  justify-content: right;
+  background: cornflowerblue;
+  height: 15vh;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #e2e2e2;
+}
+
+.logo-holder{
+  background: aliceblue;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  cursor: pointer;
+  color: #04202C;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.main{
+  height: 65vh;
+  display: flex;
+  gap: 5%;
+}
+
+.wrapper-1{
+  height: 100%;
+  width: 50%;
+}
+
+.wrapper-2{
+  height: 80%;
+  gap: 10%;
+  display: flex;
+}
+
+.section-6{
+  height: 20%;
+  background: greenyellow;
+}
+
+.section-4{
+  height: 100%;
+  width: 20%;
+  background: darkslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.section-5{
+  height: 100%;
+  width: 20%;
+  background: darkseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.menu{
+  height: 100%;
+  width: 45%;
+  background: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.menu a:hover{
+  color: green;
+}
+
+.section-3{
+  height: 100%;
+  width: 45%;
+  background: aquamarine;
+}
+
+.img-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
